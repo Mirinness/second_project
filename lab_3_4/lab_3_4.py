@@ -24,5 +24,3 @@ print(text[x])
 
 '''Reverse text using slice'''
 print(text[::-1])
-
-test
