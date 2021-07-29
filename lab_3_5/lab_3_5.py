@@ -1,9 +1,5 @@
 '''Generate list with lowercase and uppercase alphabet plus numbers'''
-import string
-arr = [char for char in string.ascii_uppercase]
-arr2 = [char for char in string.ascii_lowercase]
-arr3 = [char for char in string.digits]
-arr+=arr2+arr3
+arr = ["test", 2, 6, 5, 9, 10, "A", "B", "C", "d", "e", "f"]
 print(arr)
 
 '''Print 1st symbol of list'''
@@ -23,10 +19,13 @@ print(arr[0:10])
 print(arr[::2])
 
 '''Print only integer values from list'''
-for i in range(len(arr)):
-    if type(arr[i])==type(int):
-        print(arr[i])
+for i in arr:
+    if type(i) == int:
+        print(i)
 
 '''Reverse list using slice'''
 print(arr[::-1])
 
+'''Convert base list into string'''
+str = ', '.join(map(str, arr))
+print(str)
