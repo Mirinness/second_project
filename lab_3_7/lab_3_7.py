@@ -26,6 +26,3 @@ print(t[::-1])
 '''Convert both tuples into list'''
 l = list(t) + list(t2)
 print(l)
-
-print('vvv')
-print(type(b))
