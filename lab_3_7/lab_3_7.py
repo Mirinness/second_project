@@ -15,11 +15,10 @@ print(t2)
 '''Slice first 3 symbols from first tuple'''
 print(t[:3])
 
-'''Print only symbols with numbers from second set''' '''----------ПЕРЕВІРИТИ----------'''
+'''Print only symbols with numbers from second set'''
 for i in b:
-    if type(i) == int:
-        print(b[i])
-        print(' ok ')
+    if (i.isnumeric())==True:
+        print(i)
 
 '''Reverse tuple using slice'''
 print(t[::-1])
