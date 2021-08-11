@@ -15,7 +15,7 @@ while True:
         end_year = int(input('Enter the end year: '))
         for year in range(start_year, end_year + 1):
             if (year % 4 == 0) and (year % 100 != 0) or (year % 400 == 0):
-                 print('Leap year is: {}'.format(year))
+                print('Leap year is: {}'.format(year))
         break
     break
 input()
