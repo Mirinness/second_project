@@ -21,6 +21,8 @@ print(text[::3])
 x=len(text)
 x=round(x/2)
 print(text[x])
+'''ще можна так'''
+print(text[len(text)//2])
 
 '''Reverse text using slice'''
 print(text[::-1])
