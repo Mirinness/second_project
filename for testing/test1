@@ -1,0 +1,5 @@
+a = 12
+def function(x,y):
+    a=x+y
+    return a
+print(function(5,10))
